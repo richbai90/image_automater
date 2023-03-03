@@ -15,6 +15,7 @@ import (
 	"fyne.io/fyne/v2/driver/desktop"
 )
 
+
 type Slideshow struct {
 	app 	   fyne.App
 	imageFolder string
@@ -129,5 +130,6 @@ func main() {
 		slideshow.app.Quit()
 	})
 
+	slideshow.app.Settings().SetTheme(&CustomTheme{})
 	slideshow.app.Run()
 }
