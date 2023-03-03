@@ -97,7 +97,7 @@ func isImage(filename string) bool {
 
 func main() {
 	if len(os.Args) < 3 {
-		fmt.Println("Usage: slideshow <folder> <interval>")
+		fmt.Println("Usage: image_automater <folder> <interval>")
 		return
 	}
 
