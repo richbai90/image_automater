@@ -8,10 +8,17 @@ Download the precompiled binary for your system from the [releases](https://gith
 
 ## Usage
 ```bash
-image_automater <folder> <time>
+image_automater <folder> [flags]
 ```
 
 ### Shortcuts
 ctrl+k: Kill the slideshow
 space bar: Pause the slideshow
 
+### Flags
+```bash
+-i --interval: The interval between images in seconds (default: 1)
+-b --background: The background color of the slideshow (default: black)
+-h --help: Show the help menu
+
+```
