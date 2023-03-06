@@ -12,7 +12,7 @@ image_automater <folder> [flags]
 ```
 
 ### Shortcuts
-ctrl+k: Kill the slideshow
+ctrl+k: Kill the slideshow<br>
 space bar: Pause the slideshow
 
 ### Flags
